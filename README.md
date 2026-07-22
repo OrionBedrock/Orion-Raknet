@@ -61,8 +61,8 @@ var server = new NetworkServer(new RaknetServerOptions
 
 ## Branches
 
-- `development` — default working branch
-- `main` — release branch; merges that change `src/**` auto-bump the NuGet patch (`+0.0.1`) and publish
+- `main` — default branch; merges that change `src/**` auto-bump the NuGet patch (`+0.0.1`) and publish
+- `development` — optional working branch
 
 ## Build / pack locally
 
