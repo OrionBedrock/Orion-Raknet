@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>RakNet</RootNamespace>
+    <AssemblyName>Orion.RakNet</AssemblyName>
+    <Version>0.1.0</Version>
+    <Authors>OrionBedrock</Authors>
+    <Company>OrionBedrock</Company>
+    <Description>Standalone RakNet UDP transport for Bedrock-compatible servers.</Description>
+    <PackageId>Orion.RakNet</PackageId>
+    <PackageTags>raknet;bedrock;minecraft;udp;networking</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/OrionBedrock/Orion-Raknet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OrionBedrock/Orion-Raknet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Basalt.Binary" Version="0.1.0" />
+  </ItemGroup>
+
+</Project>
